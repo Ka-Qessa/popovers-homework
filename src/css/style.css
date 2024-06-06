@@ -1,0 +1,36 @@
+.container {
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 200;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 250px;
+    text-align: center;
+}
+
+.invisible {
+    display: none;
+}
+
+.btn {
+    color: #fff;
+    background-color: #dc3545;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: sans-serif, "Arial";
+    line-height: 30px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    box-sizing: border-box;
+  }
+
+  .btn:hover {
+    color: #fff;
+    background-color: #c82333;
+  }
+
+  .btn:focus {
+    outline: 0;
+  }
